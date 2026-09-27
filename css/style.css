@@ -496,3 +496,45 @@ footer p {
     }
 
 }
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+.about-hero {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+        url("../images/general/about-hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.about-hero-content {
+    max-width: 850px;
+    padding: 40px 25px;
+    color: white;
+}
+
+.about-hero .section-label {
+    color: #ddd;
+}
+
+.about-hero h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 3px;
+    margin: 18px 0 25px;
+}
+
+.about-hero p:not(.section-label) {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.8;
+}
