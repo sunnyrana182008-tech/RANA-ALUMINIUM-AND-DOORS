@@ -65,8 +65,8 @@ nav a:hover {
     text-align: center;
 
     background:
-        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url("../images/general/hero.jpg");
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("../images/aluminium-cover.jpg");
 
     background-size: cover;
     background-position: center;
